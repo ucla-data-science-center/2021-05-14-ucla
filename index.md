@@ -39,13 +39,6 @@ For a workshop please delete the following block until the next dashed-line
 
 
 <div class="alert alert-danger">
-This is the workshop template. Delete these lines and use it to
-<a href="https://carpentries.github.io/workshop-template/customization/index.html">customize</a>
-your own website. If you are running a self-organized workshop or have not put
-in a workshop request yet, please also fill in
-<a href="{{site.amy_site}}/forms/self-organised/">this workshop request form</a>
-to let us know about your workshop and our administrator may contact you if we
-need any extra information.
 If this is a pilot workshop for a new lesson,
 remember to uncomment the `pilot_lesson_site`, `pilot_pre_survey`, and `pilot_post_survey`
 fields in `_config.yml`
