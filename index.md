@@ -72,7 +72,53 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 </div>
 {% endunless %}
 {% endif %}
-
+<h2>Register Now!</h2>
+<p>Please register separately for each workshop in the series. </p>
+<div class="row">
+<div class="col-md-8">
+<table class="table table-striped">
+<tr> <td></td> 9:00am - 12:30pm, Friday, May 14, 2021
+ <td><!-- Place the following link anywhere in your page. Make sure the id "s_lc_event_7627923" matches with the above code: jQuery("#s_lc_event_7627923")  //-->
+<a id="s_lc_event_7627923" href="https://calendar.library.ucla.edu/event/7578285">Library Carpentry: Introduction to R - Part 1
+</a>
+<!-- Below is optional element styling  //-->
+  <style>
+#s_lc_event_7627923 {
+  background: #2774AE;
+  border: 1px solid #2774AE;
+  border-radius: 4px;
+  color: #E7F5F3;
+  font: 14px Arial, Helvetica, Verdana;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+#s_lc_event_7627923:hover {
+  opacity: 0.9;
+}
+</style>
+</td> </tr>
+      <tr> <td>7627927 </td>  <td><!-- Place the following link anywhere in your page. Make sure the id "s_lc_event_7627930" matches with the above code: jQuery("#s_lc_event_7627930")  //-->
+<a id="s_lc_event_7627930" href="https://calendar.library.ucla.edu/event/7627927">Library Carpentry: Introduction to R - Part 2</a>
+<!-- Below is optional element styling  //-->
+<style>
+#s_lc_event_7627930 {
+  background: #2774AE;
+  border: 1px solid #2774AE;
+  border-radius: 4px;
+  color: #F7F2F2;
+  font: 14px Arial, Helvetica, Verdana;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+#s_lc_event_7627930:hover {
+  opacity: 0.9;
+}
+</style>
+</td> </tr>  
+  </table>
+    
+</div> 
+</div>
 {% comment %}
 EVENTBRITE
 
