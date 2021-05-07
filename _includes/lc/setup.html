@@ -1,46 +1,65 @@
-{% if site.flavor == "r" %}
-{% include install_instructions/r.html %}
+<div id="r">
+  <h3>R</h3>
 
-<div id="shell-setup"> {% comment %} Start of 'shell' section. {% endcomment %}
-  <h3>The Bash Shell</h3>
   <p>
-    Bash is a commonly-used shell that gives you the power to do simple tasks
-    more quickly. Please find setup instructions in
-    the <a href="https://librarycarpentry.org/lc-shell/setup.html">lesson</a>.
+    <a href="https://www.r-project.org">R</a> is a programming language
+    that is especially powerful for data exploration, visualization, and
+    statistical analysis. To interact with R, we use
+    <a href="https://www.rstudio.com/">RStudio</a>.
   </p>
-</div>
 
-<div id="openrefine-setup">
-  <h3>OpenRefine</h3>
-  <p>
-    OpenRefine is a tool to clean up and organize messy data. Please find instructions to install it and the data used in the lesson in the <a href="https://librarycarpentry.org/lc-open-refine/setup.html">lesson</a>.
-  </p>
-</div>
+  <div>
+    <ul class="nav nav-tabs" role="tablist">
+      <li role="presentation" class="active"><a data-os="windows" href="#rstats-windows" aria-controls="Windows" role="tab" data-toggle="tab">Windows</a></li>
+      <li role="presentation"><a data-os="macos" href="#rstats-macos" aria-controls="MacOS" role="tab" data-toggle="tab">MacOS</a></li>
+      <li role="presentation"><a data-os="linux" href="#rstats-linux" aria-controls="Linux" role="tab" data-toggle="tab">Linux</a></li>
+    </ul>
 
-<div id="git-setup"> {% comment %} Start of 'Git' section. GitHub browser compatibility
-  is given at https://help.github.com/articles/supported-browsers/{% endcomment %}
-  <h3>Git</h3>
-  <p>
-    Git is a version control system that lets you track who made changes
-    to what when and has options for easily updating a shared or public
-    version of your code
-    on <a href="https://github.com/">https://github.com</a>.
-  </p>
-  <p>
-    Follow the instructions on
-    the <a href="https://librarycarpentry.org/lc-git/setup.html">lesson</a> to
-    install Git on your system.
-  </p>
-  <p>
-    You will need an account at <a href="https://github.com/">github.com</a>
-    for parts of the Git lesson. Basic GitHub accounts are free. We encourage
-    you to create a GitHub account if you don't have one already.
-    Please consider what personal information you'd like to reveal. For
-    example, you may want to review these
-    <a href="https://help.github.com/articles/keeping-your-email-address-private/">instructions
-      for keeping your email address private</a> provided at GitHub. You will
-      need a
-    <a href="https://help.github.com/articles/supported-browsers/">supported
-    web browser</a>.
-  </p>
+    <div class="tab-content">
+      <article role="tabpanel" class="tab-pane active" id="rstats-windows">
+        <p>
+          Install R by downloading and running
+          <a href="https://cran.r-project.org/bin/windows/base/release.htm">this .exe file</a>
+          from <a href="https://cran.r-project.org/index.html">CRAN</a>.
+          Also, please install the
+          <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>.
+          Note that if you have separate user and admin accounts, you should run the
+          installers as administrator (right-click on .exe file and select "Run as
+          administrator" instead of double-clicking). Otherwise problems may occur later,
+          for example when installing R packages.
+        </p>
+        <h4>Video Tutorial</h4>
+        <div class="yt-wrapper2">
+        <div class="yt-wrapper">
+        <iframe type="text/html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" src="https://www.youtube-nocookie.com/embed/q0PjTAylwoU?modestbranding=1&playsinline=1&iv_load_policy=3&rel=0" class="yt-frame" allowfullscreen></iframe>
+        </div>
+        </div>
+      </article>
+      <article role="tabpanel" class="tab-pane" id="rstats-macos">
+        <p>
+          Install R by downloading and running
+          <a href="https://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg file</a>
+          from <a href="https://cran.r-project.org/index.html">CRAN</a>.
+          Also, please install the
+          <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>.
+        </p>
+        <h4>Video Tutorial</h4>
+        <div class="yt-wrapper2">
+        <div class="yt-wrapper">
+        <iframe type="text/html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" src="https://www.youtube-nocookie.com/embed/5-ly3kyxwEg?modestbranding=1&playsinline=1&iv_load_policy=3&rel=0" class="yt-frame" allowfullscreen></iframe>
+        </div>
+        </div>
+      </article>
+      <article role="tabpanel" class="tab-pane" id="rstats-linux">
+        <p>
+          You can download the binary files for your distribution
+          from <a href="https://cran.r-project.org/index.html">CRAN</a>. Or
+          you can use your package manager (e.g. for Debian/Ubuntu
+          run <code>sudo apt-get install r-base</code> and for Fedora run
+          <code>sudo dnf install R</code>).  Also, please install the
+          <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>.
+        </p>
+      </article>
+    </div>
+  </div>
 </div>
